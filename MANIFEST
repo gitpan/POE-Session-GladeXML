@@ -1,0 +1,7 @@
+COPYING
+MANIFEST			This list of files
+Makefile.PL
+README
+lib/POE/Session/GladeXML.pm
+test.glade
+test.pl

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<GTK-Interface>
+
+<project>
+  <name>Tipi-Widgets</name>
+  <program_name>tipi-widgets</program_name>
+  <directory></directory>
+  <source_directory>src</source_directory>
+  <pixmaps_directory>pixmaps</pixmaps_directory>
+  <language>C</language>
+  <gnome_support>True</gnome_support>
+  <gettext_support>True</gettext_support>
+</project>
+
+<widget>
+  <class>GtkWindow</class>
+  <name>window2</name>
+  <signal>
+    <name>delete_event</name>
+    <handler>on_delete</handler>
+    <last_modification_time>Tue, 11 Feb 2003 18:36:33 GMT</last_modification_time>
+  </signal>
+  <title>window2</title>
+  <type>GTK_WINDOW_TOPLEVEL</type>
+  <position>GTK_WIN_POS_NONE</position>
+  <modal>False</modal>
+  <allow_shrink>False</allow_shrink>
+  <allow_grow>True</allow_grow>
+  <auto_shrink>False</auto_shrink>
+
+  <widget>
+    <class>GtkButton</class>
+    <child_name>GnomeDock:contents</child_name>
+    <name>button1</name>
+    <can_focus>True</can_focus>
+    <signal>
+      <name>clicked</name>
+      <handler>on_button1_clicked</handler>
+      <last_modification_time>Tue, 11 Feb 2003 17:55:13 GMT</last_modification_time>
+    </signal>
+    <label>button1</label>
+    <relief>GTK_RELIEF_NORMAL</relief>
+  </widget>
+</widget>
+
+</GTK-Interface>
